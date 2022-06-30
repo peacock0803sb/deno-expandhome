@@ -36,9 +36,6 @@ jobs:
       - uses: denoland/setup-deno@v1
         with:
           deno-version: v1.x
-      - uses: maxim-lobanov/setup-xcode@v1
-        with:
-          xcode-version: latest-stable
       - uses: goto-bus-stop/setup-zig@v1
         with:
           version: 0.9.1
