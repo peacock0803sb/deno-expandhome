@@ -39,7 +39,9 @@ jobs:
       - uses: goto-bus-stop/setup-zig@v1
         with:
           version: 0.7.0
-      - run: xcode-select --install
+      - uses: maxim-lobanov/setup-xcode@v1
+        with:
+          xcode-version: latest-stable
       - name: make x86_64
         run: make dist
       - name: make aarch64
