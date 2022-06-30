@@ -8,7 +8,7 @@ linux)
   FLAGS="-target aarch64-linux"
   ;;
 darwin)
-  FLAGS="-target aarch64-macos -F /Library/Developer"
+  FLAGS="-target aarch64-macos -F /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"
   ;;
 esac
 
