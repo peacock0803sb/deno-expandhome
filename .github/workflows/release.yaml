@@ -41,7 +41,7 @@ jobs:
           xcode-version: latest-stable
       - uses: goto-bus-stop/setup-zig@v1
         with:
-          version: 0.7.0
+          version: 0.9.1
       - name: make x86_64
         run: make dist
       - name: make aarch64
